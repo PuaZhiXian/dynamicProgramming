@@ -9,7 +9,6 @@ public class StoneGame7 {
 
     }
 
-    int space = 0;
     int n = 0;
     int[] prefixSum;
 
@@ -22,7 +21,6 @@ public class StoneGame7 {
             prefixSum[i] = prefixSum[i - 1] + stones[i];
         }
 
-//        return helper(0, n - 1, 0, true, prefixSum);
         return bottomUpApproach();
     }
 
@@ -66,14 +64,6 @@ public class StoneGame7 {
         if (left == right) {
             return sum;
         }
-        /*for (int i = 0; i < space; i++) {
-            System.out.printf("\t");
-        }
-        System.out.printf("Array -> [ ");
-        for (int i = left; i <= right; i++) {
-            System.out.printf(" %d ", stones[i]);
-        }
-        System.out.printf("]\n");*/
 
         int result = aliceTurn ? Integer.MIN_VALUE : Integer.MAX_VALUE;
         //Remove first left element
@@ -85,13 +75,7 @@ public class StoneGame7 {
             sumAfterAddLeftElement -= sumAfterRemoveLeft;
         }
 
-        /*space += 1;
-        for (int i = 0; i < space; i++) {
-            System.out.printf("\t");
-        }
-        System.out.printf("Left --> %d\n", sumAfterAddLeftElement);*/
         int ansFromLeft = helper(left + 1, right, sumAfterAddLeftElement, !aliceTurn, prefixSum);
-        /*space -= 1;*/
         if (aliceTurn) {
             result = Math.max(ansFromLeft, result);
         } else {
@@ -112,22 +96,12 @@ public class StoneGame7 {
             sumAfterAddRightElement -= sumAfterRemoveRight;
         }
 
-        /*space += 1;
-        for (int i = 0; i < space; i++) {
-            System.out.printf("\t");
-        }
-        System.out.printf("Right --> %d\n", sumAfterAddRightElement);*/
         int ansFromRight = helper(left, right - 1, sumAfterAddRightElement, !aliceTurn, prefixSum);
-        /* space -= 1;*/
         if (aliceTurn) {
             result = Math.max(ansFromRight, result);
         } else {
             result = Math.min(ansFromRight, result);
         }
-        /*for (int i = 0; i < space; i++) {
-            System.out.printf("\t");
-        }
-        System.out.printf("return --> %d\n", result);*/
         return result;
     }
 }

@@ -1,6 +1,9 @@
-public class findTheKBeautyOfANumber {
+/**
+ * https://leetcode.com/problems/find-the-k-beauty-of-a-number/
+ */
+public class No2269_findTheKBeautyOfANumber {
     public static void main(String[] args) {
-        findTheKBeautyOfANumber obj = new findTheKBeautyOfANumber();
+        No2269_findTheKBeautyOfANumber obj = new No2269_findTheKBeautyOfANumber();
         System.out.println(obj.divisorSubstrings(240, 2));
     }
 

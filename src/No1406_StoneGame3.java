@@ -1,6 +1,9 @@
-public class StoneGame3 {
+/**
+ * https://leetcode.com/problems/stone-game-iii/
+ */
+public class No1406_StoneGame3 {
     public static void main(String[] args) {
-        StoneGame3 obj = new StoneGame3();
+        No1406_StoneGame3 obj = new No1406_StoneGame3();
         int[] arr1 = {1, 2, 3, 7};
         int[] arr2 = {1, 2, 3, -9};
         int[] arr3 = {1, 2, 3, 6};

@@ -1,8 +1,11 @@
-public class FairDistributionOfCookies {
+/**
+ * https://leetcode.com/problems/fair-distribution-of-cookies/
+ */
+public class No2305_FairDistributionOfCookies {
 
 
     public static void main(String[] args) {
-        FairDistributionOfCookies obj = new FairDistributionOfCookies();
+        No2305_FairDistributionOfCookies obj = new No2305_FairDistributionOfCookies();
         int[] cookies1 = {8, 15, 10, 20, 8};
         System.out.println(obj.distributeCookies(cookies1, 2));
     }

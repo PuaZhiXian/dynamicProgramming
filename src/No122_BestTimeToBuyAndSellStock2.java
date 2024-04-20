@@ -1,6 +1,9 @@
-public class BestTimeToBuyAndSellStock2_122 {
+/**
+ * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/
+ */
+public class No122_BestTimeToBuyAndSellStock2 {
     public static void main(String[] args) {
-        BestTimeToBuyAndSellStock2_122 obj = new BestTimeToBuyAndSellStock2_122();
+        No122_BestTimeToBuyAndSellStock2 obj = new No122_BestTimeToBuyAndSellStock2();
         int[] arr1 = {7, 1, 5, 3, 6, 4};
         int[] arr2 = {1, 2, 3, 4, 5};
         int[] arr3 = {7, 6, 4, 3, 1};

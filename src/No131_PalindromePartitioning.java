@@ -1,11 +1,14 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class PalindromePartitioning {
+/**
+ * https://leetcode.com/problems/palindrome-partitioning/description/
+ */
+public class No131_PalindromePartitioning {
 
 
     public static void main(String[] args) {
-        PalindromePartitioning obj = new PalindromePartitioning();
+        No131_PalindromePartitioning obj = new No131_PalindromePartitioning();
         String text1 = "aab";
         String text2 = "a";
         System.out.println(obj.partition(text1));

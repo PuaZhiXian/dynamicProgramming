@@ -1,6 +1,9 @@
-public class CountNumberofTeams_1395 {
+/**
+ * https://leetcode.com/problems/count-number-of-teams/description/
+ */
+public class No1395_CountNumberofTeams {
     public static void main(String[] args) {
-        CountNumberofTeams_1395 obj = new CountNumberofTeams_1395();
+        No1395_CountNumberofTeams obj = new No1395_CountNumberofTeams();
 
         int[] arr1 = {2, 5, 3, 4, 1};
         int[] arr2 = {2, 1, 3};

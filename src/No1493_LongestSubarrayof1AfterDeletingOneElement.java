@@ -1,9 +1,12 @@
 import java.util.ArrayList;
 
-public class LongestSubarrayof1AfterDeletingOneElement_1493 {
+/**
+ * https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/description/
+ */
+public class No1493_LongestSubarrayof1AfterDeletingOneElement {
     public static void main(String[] args) {
 
-        LongestSubarrayof1AfterDeletingOneElement_1493 obj = new LongestSubarrayof1AfterDeletingOneElement_1493();
+        No1493_LongestSubarrayof1AfterDeletingOneElement obj = new No1493_LongestSubarrayof1AfterDeletingOneElement();
         int[] arr1 = {1, 1, 0, 1};
         int[] arr2 = {0, 1, 1, 1, 0, 1, 1, 0, 1};
         int[] arr3 = {1, 1, 1};

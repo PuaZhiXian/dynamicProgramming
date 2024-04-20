@@ -1,8 +1,11 @@
 import java.util.Arrays;
 
-public class MaximumStrongPairXor {
+/**
+ * https://leetcode.com/problems/maximum-strong-pair-xor-i/
+ */
+public class No2932_MaximumStrongPairXor {
     public static void main(String[] args) {
-        MaximumStrongPairXor obj = new MaximumStrongPairXor();
+        No2932_MaximumStrongPairXor obj = new No2932_MaximumStrongPairXor();
         int[] nums1 = {1, 2, 3, 4, 5};
         int[] nums2 = {1, 1, 10, 3, 9};
         System.out.println(obj.maximumStrongPairXor(nums1));

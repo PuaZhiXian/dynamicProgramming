@@ -1,10 +1,13 @@
 import java.util.HashMap;
 import java.util.Map;
 
-public class FindLHS {
+/**
+ * https://leetcode.com/problems/longest-harmonious-subsequence/description/
+ */
+public class No594_LongestHarmoniousSubsequence {
 
     public static void main(String[] args) {
-        FindLHS obj = new FindLHS();
+        No594_LongestHarmoniousSubsequence obj = new No594_LongestHarmoniousSubsequence();
         int[] nums1 = {1, 3, 2, 2, 5, 2, 3, 7}; //5
         int[] nums2 = {1, 2, 2, 1}; //4
         int[] nums3 = {1, 1, 1, 1};//0

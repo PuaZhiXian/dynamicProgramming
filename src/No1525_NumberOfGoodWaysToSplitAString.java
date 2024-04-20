@@ -1,9 +1,11 @@
 import java.util.HashMap;
 
-/*https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/*/
-public class NumberOfGoodWaysToSplitAString {
+/**
+ * https://leetcode.com/problems/number-of-good-ways-to-split-a-string/description/
+ */
+public class No1525_NumberOfGoodWaysToSplitAString {
     public static void main(String[] args) {
-        NumberOfGoodWaysToSplitAString obj = new NumberOfGoodWaysToSplitAString();
+        No1525_NumberOfGoodWaysToSplitAString obj = new No1525_NumberOfGoodWaysToSplitAString();
         String str1 = "aacaba";
         System.out.println(obj.numSplits(str1));
     }

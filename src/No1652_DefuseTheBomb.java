@@ -1,8 +1,11 @@
 import java.util.Arrays;
 
-public class DefuseTheBomb {
+/**
+ * https://leetcode.com/problems/defuse-the-bomb/
+ */
+public class No1652_DefuseTheBomb {
     public static void main(String[] args) {
-        DefuseTheBomb obj = new DefuseTheBomb();
+        No1652_DefuseTheBomb obj = new No1652_DefuseTheBomb();
         int[] arr1 = {1, 2, 3, 4};
         int[] arr2 = {5, 7, 1, 4};
         int[] arr3 = {2, 4, 9, 3};

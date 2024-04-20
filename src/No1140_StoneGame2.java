@@ -1,7 +1,10 @@
-public class StoneGame2 {
+/**
+ * https://leetcode.com/problems/stone-game-ii/
+ */
+public class No1140_StoneGame2 {
 
     public static void main(String[] args) {
-        StoneGame2 obj = new StoneGame2();
+        No1140_StoneGame2 obj = new No1140_StoneGame2();
         int[] arr1 = {1, 2, 3, 4, 5, 100};
         int[] arr2 = {2, 7, 9, 4, 4};
         int[] arr3 = {77, 12, 64, 35, 28, 4, 87, 21, 20};

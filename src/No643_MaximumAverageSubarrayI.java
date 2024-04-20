@@ -1,8 +1,9 @@
-import java.util.Arrays;
-
-public class FindMaxAverage {
+/**
+ * https://leetcode.com/problemset/?search=643&page=1&status=AC
+ */
+public class No643_MaximumAverageSubarrayI {
     public static void main(String[] args) {
-        FindMaxAverage obj = new FindMaxAverage();
+        No643_MaximumAverageSubarrayI obj = new No643_MaximumAverageSubarrayI();
         int[] arr1 = {1, 12, -5, -6, 50, 3};
         int[] arr2 = {5};
 

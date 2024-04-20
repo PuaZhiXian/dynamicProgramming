@@ -1,9 +1,12 @@
 import java.util.HashSet;
 import java.util.Set;
 
-public class LongestNiceSubstring {
+/**
+ * https://leetcode.com/problems/longest-nice-substring/
+ */
+public class No1763_LongestNiceSubstring {
     public static void main(String[] args) {
-        LongestNiceSubstring obj = new LongestNiceSubstring();
+        No1763_LongestNiceSubstring obj = new No1763_LongestNiceSubstring();
         System.out.println(obj.longestNiceSubstring("dDzeE"));
     }
 

@@ -1,8 +1,11 @@
 import java.util.HashSet;
 
-public class ContainsNearbyDuplicate {
+/**
+ * https://leetcode.com/problems/contains-duplicate-ii/description/
+ */
+public class No219_ContainsNearbyDuplicate {
     public static void main(String[] args) {
-        ContainsNearbyDuplicate obj = new ContainsNearbyDuplicate();
+        No219_ContainsNearbyDuplicate obj = new No219_ContainsNearbyDuplicate();
         int[] nums1 = {1, 2, 3, 1};
         int k1 = 3;
         int[] nums2 = {1, 0, 1, 1};

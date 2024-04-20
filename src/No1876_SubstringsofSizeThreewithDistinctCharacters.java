@@ -1,6 +1,9 @@
-public class CountGoodSubstrings {
+/**
+ * https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/description/
+ */
+public class No1876_SubstringsofSizeThreewithDistinctCharacters {
     public static void main(String[] args) {
-        CountGoodSubstrings obj = new CountGoodSubstrings();
+        No1876_SubstringsofSizeThreewithDistinctCharacters obj = new No1876_SubstringsofSizeThreewithDistinctCharacters();
         String text1 = "xyzzaz";//1
         String text2 = "aababcabc";//4
 

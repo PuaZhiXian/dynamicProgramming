@@ -1,8 +1,11 @@
-public class BestTimeToBuyAndSellStockWithTransactionFee {
+/**
+ * https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
+ */
+public class No714_BestTimeToBuyAndSellStockWithTransactionFee {
     public static void main(String[] args) {
         int[] arr1 = {1, 3, 2, 8, 4, 9};
         int[] arr2 = {1, 3, 7, 5, 10, 3};
-        BestTimeToBuyAndSellStockWithTransactionFee obj = new BestTimeToBuyAndSellStockWithTransactionFee();
+        No714_BestTimeToBuyAndSellStockWithTransactionFee obj = new No714_BestTimeToBuyAndSellStockWithTransactionFee();
         System.out.println(obj.maxProfit(arr1, 2));
         System.out.println(obj.maxProfit(arr2, 3));
     }

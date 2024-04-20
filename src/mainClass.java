@@ -5,9 +5,9 @@ public class mainClass {
     public static void main(String[] args) {
         mainClass obj = new mainClass();
 //        System.out.println(obj.getKth(12, 15, 2));
-        System.out.println(obj.getKth(1, 20, 2));
-
-
+//        System.out.println(obj.getKth(1, 20, 2));
+//        String s5 = "anagram";
+//        String t5 = "nagaram";
     }
 
     public int getKth(int lo, int hi, int k) {
@@ -81,6 +81,4 @@ public class mainClass {
         }
         return outputArray;
     }
-
-
 }

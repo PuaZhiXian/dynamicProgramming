@@ -1,15 +1,24 @@
+import java.util.Arrays;
+
 public class mainClass {
-
     public static void main(String[] args) {
-//        System.out.println(minimumOperations(new int[]{1, 2, 3, 4, 5, 0}));//3
-//        System.out.println(minimumOperations(new int[]{3, 6, 9}));//0
-/*        System.out.println(minimumAverage(new int[]{7, 8, 3, 4, 15, 13, 4, 1}));
-        System.out.println(minimumAverage(new int[]{1, 9, 8, 3, 10, 5}));
-        System.out.println(minimumAverage(new int[]{1, 2, 3, 7, 8, 9}));
-        System.out.println(minimumAverage(new int[]{1,1}));*/
-        String temp = String.format("hello %s world %s", "first", "%s");
+        System.out.println(maximumPoints(new int[]{3, 2, 2}, 2));
+//        System.out.println(maximumPoints(new int[]{2}, 10));
+    }
 
-        System.out.println(String.format(temp,"second"));
+    public static long maximumPoints(int[] enemyEnergies, int currentEnergy) {
+        long point = 0;
+        Arrays.sort(enemyEnergies);
+        for (int i = enemyEnergies.length - 1; i >= 0; i--) {
+            if (currentEnergy < enemyEnergies[i]) {
+                currentEnergy += enemyEnergies[i];
+            } else {
+                point++;
+                currentEnergy -= enemyEnergies[i];
+                i++;
+            }
+        }
+        return point;
     }
 
 }

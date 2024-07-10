@@ -1,3 +1,6 @@
+/**
+*https://leetcode.com/problems/distribute-coins-in-binary-tree
+*/
 public class NO979_DistributeCoinsinBinaryTree {
     public static void main(String[] args) {
         TreeNode n = new TreeNode(5, new TreeNode(0), new TreeNode(0));

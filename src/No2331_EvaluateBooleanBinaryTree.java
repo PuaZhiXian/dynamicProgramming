@@ -2,7 +2,7 @@ public class No2331_EvaluateBooleanBinaryTree {
     public static void main(String[] args) {
         TreeNode n1 = new TreeNode(3, new TreeNode(0), new TreeNode(1));
         TreeNode root = new TreeNode(2, new TreeNode(1), n1);
-        TreeNode root1= new TreeNode(0);
+        TreeNode root1 = new TreeNode(0);
         System.out.println(evaluateTree(root));
         System.out.println(evaluateTree(root1));
     }
@@ -35,5 +35,13 @@ class TreeNode {
         this.val = val;
         this.left = left;
         this.right = right;
+    }
+
+    static void printInorder(TreeNode node) {
+        if (node == null)
+            return;
+        printInorder(node.right);
+        System.out.print(node.val + " ");
+        printInorder(node.left);
     }
 }

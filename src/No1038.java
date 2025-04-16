@@ -24,7 +24,7 @@ public class No1038 {
 
         No1038 obj = new No1038();
         obj.bstToGst(node6);
-        obj.printInorder(node6);
+        TreeNode.printInorder(node6);
     }
 
     public TreeNode bstToGst(TreeNode root) {
@@ -44,13 +44,6 @@ public class No1038 {
         return node.val;
     }
 
-    void printInorder(TreeNode node) {
-        if (node == null)
-            return;
-        printInorder(node.right);
-        System.out.print(node.val + " ");
-        printInorder(node.left);
-    }
 
     public static int distributeCoins(TreeNode root) {
         if (root == null) {

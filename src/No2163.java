@@ -37,7 +37,6 @@ public class No2163 {
             }
         }
 
-
         PriorityQueue<Integer> maxpq = new PriorityQueue<>();
         sum = 0;
         index = 0;
